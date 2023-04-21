@@ -29,6 +29,7 @@ int _strcmp(char *s1, char *s2)
 int _sch(char *s, char c)
 {
 	int cont = 0;
+
 	while (s[cont] != '\0')
 	{
 		if (s[cont] == c)
@@ -53,6 +54,7 @@ char *_strtoky(char *s, char *d)
 {
 	static char *ultimo;
 	int i = 0, j = 0;
+
 	if (!s)
 		s = ultimo;
 	while (s[i] != '\0')

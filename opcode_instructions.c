@@ -116,7 +116,7 @@ void _swap(stack_t **doubly, unsigned int cline)
 	stack_t *aux = NULL;
 
 	aux = *doubly;
-	
+
 	for (; aux != NULL; aux = aux->next, m++)
 		;
 

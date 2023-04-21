@@ -12,13 +12,13 @@ void _rotl(stack_t **doubly, unsigned int cline)
 	stack_t *aux1 = NULL;
 	stack_t *aux2 = NULL;
 	(void)cline;
-	
+
 	if (*doubly == NULL)
 		return;
 
 	if ((*doubly)->next == NULL)
 		return;
-	
+
 	aux1 = (*doubly)->next;
 	aux2 = *doubly;
 
